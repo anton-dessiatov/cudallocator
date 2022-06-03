@@ -1,0 +1,19 @@
+{
+  "cmake.buildDirectory": "${workspaceFolder}/build/vscode",
+  "cmake.configureSettings": {
+  },
+  "clangd.arguments": [
+    "--compile-commands-dir=${workspaceFolder}/build/vscode"
+  ],
+  "cmake.generator": "Unix Makefiles",
+  "cmake.configureOnOpen": false,
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "clang-tidy.lintOnSave": true,
+  "clang-tidy.buildPath": "build/vscode"
+}
